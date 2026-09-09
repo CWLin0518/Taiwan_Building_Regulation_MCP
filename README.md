@@ -46,30 +46,89 @@
 1. [法務部全國法規資料庫](https://law.moj.gov.tw/)
 2. [內政部國土管理署](https://www.nlma.gov.tw/)
 
-## 安裝與建置
+## 第一次安裝：Windows + Claude Desktop
 
-需求：Node.js 20 或以上版本及 npm。
+MCP 可以理解成「讓 Claude 使用外部工具的連接方式」。安裝完成後，Claude 便能呼叫本專案搜尋建築法規。以下步驟不需要 TypeScript 或 MCP 開發經驗。
 
-```bash
+### 步驟 1：安裝必要軟體
+
+請先安裝：
+
+1. [Node.js](https://nodejs.org/) 20 或更新版本。建議下載官網標示為 **LTS** 的版本，安裝時使用預設選項即可。
+2. [Claude Desktop](https://claude.ai/download) Windows 版。
+3. 將本專案下載或解壓縮到一個固定位置。設定完成後不要任意移動資料夾，否則 Claude 會找不到它。
+
+Node.js 安裝完成後，開啟新的 PowerShell 視窗：
+
+- 在專案資料夾的空白處按住 `Shift` 並按滑鼠右鍵，選擇「在終端機中開啟」；或
+- 在 Windows 開始功能表搜尋並開啟「PowerShell」，再用 `cd` 進入專案資料夾。
+
+輸入以下指令確認安裝成功：
+
+```powershell
+node --version
+npm --version
+```
+
+第一行應顯示 `v20` 或更高版本，第二行應顯示 npm 版本號。如果出現「無法辨識」之類的訊息，請重新安裝 Node.js，並關閉後重新開啟 PowerShell。
+
+### 步驟 2：進入專案資料夾
+
+如果 PowerShell 尚未位於本專案資料夾，請輸入 `cd` 加上專案的完整路徑。路徑外加雙引號可以避免中文或空格造成錯誤：
+
+```powershell
+cd "C:\您的路徑\Taiwan_Building_Regulation_MCP"
+```
+
+輸入以下指令可以確認目前位置：
+
+```powershell
+Get-Location
+```
+
+接下來的安裝指令都必須在這個資料夾內執行。資料夾中應該看得到 `package.json` 與 `README.md`。
+
+### 步驟 3：安裝套件並編譯
+
+依序執行以下三行。每一行完成後再執行下一行：
+
+```powershell
 npm install
 npx playwright install chromium
 npm run build
 ```
 
-可用指令：
+這三個指令分別會：
 
-```bash
-npm start       # 以 tsx 從 src/index.ts 啟動開發版 MCP server
-npm run build   # 編譯 TypeScript 至 dist/
-npm run sync    # 從官方來源同步四編法規並重建 database/
-npm test        # 執行專案測試腳本
+1. 安裝本專案需要的程式套件。
+2. 安裝查詢解釋函所需的 Chromium 瀏覽器。
+3. 將程式編譯到 `dist` 資料夾。
+
+看到警告訊息不一定代表失敗；若最後出現紅色錯誤或指令中止，請先確認網路連線及 Node.js 版本。成功後，專案內應出現 `dist/index.js`。
+
+### 步驟 4：取得專案的完整路徑
+
+在同一個 PowerShell 視窗輸入：
+
+```powershell
+(Get-Location).Path
 ```
 
-`npm run sync` 與首次缺少本地資料時都需要連線至全國法規資料庫；解釋函搜尋另需已安裝的 Chromium。
+複製顯示的結果，稍後需要貼到 Claude 的設定檔。例如：
 
-## 設定 MCP 客戶端
+```text
+C:\Users\YourName\Documents\Taiwan_Building_Regulation_MCP
+```
 
-以下以 Claude Desktop 為例。Windows 設定檔通常位於 `%APPDATA%\Claude\claude_desktop_config.json`。將專案路徑換成實際的絕對路徑，並保留 `cwd`，讓程式能正確找到 `database/` 與 `data/`：
+### 步驟 5：開啟 Claude Desktop 設定檔
+
+1. 完全關閉 Claude Desktop。
+2. 按 `Win + R` 開啟「執行」。
+3. 貼上 `%APPDATA%\Claude`，再按 Enter。
+4. 找到 `claude_desktop_config.json`，用記事本或程式碼編輯器開啟。
+5. 如果沒有這個檔案，請在該資料夾建立同名文字檔，並確認副檔名是 `.json`，不是 `.json.txt`。
+
+將以下內容貼入設定檔，並把兩處 `C:/您的路徑/Taiwan_Building_Regulation_MCP` 都換成步驟 4 取得的路徑。JSON 中建議使用 `/`，例如 `C:/Users/YourName/Documents/...`：
 
 ```json
 {
@@ -77,15 +136,50 @@ npm test        # 執行專案測試腳本
     "taiwan-building-code": {
       "command": "node",
       "args": [
-        "C:/absolute/path/to/Taiwan_Building_Regulation_MCP/dist/index.js"
+        "C:/您的路徑/Taiwan_Building_Regulation_MCP/dist/index.js"
       ],
-      "cwd": "C:/absolute/path/to/Taiwan_Building_Regulation_MCP"
+      "cwd": "C:/您的路徑/Taiwan_Building_Regulation_MCP"
     }
   }
 }
 ```
 
-完成設定後重新啟動 MCP 客戶端。若尚未執行 `npm run build`，`dist/index.js` 將不存在。
+請注意：
+
+- `args` 指向編譯完成的 `dist/index.js`。
+- `cwd` 指向專案資料夾本身，讓程式能找到 `database` 與 `data`。
+- 路徑必須是自己電腦上的實際路徑，不可直接保留「您的路徑」。
+- JSON 最後一個項目後面不能多加逗號。
+- 如果設定檔原本已有其他 MCP，請保留原有內容，只在既有的 `mcpServers` 裡加入 `taiwan-building-code`，不要建立第二個 `mcpServers`。
+
+### 步驟 6：重新啟動並測試
+
+儲存設定檔後重新開啟 Claude Desktop，建立新對話並輸入：
+
+> 請搜尋建築技術規則中關於「活載重」的規定。
+
+如果 Claude 顯示或要求使用 `search_building_code` 工具，即代表安裝成功。第一次查詢可能會因檢查法規版本而稍久。
+
+### 常見安裝問題
+
+- **找不到 `dist/index.js`**：回到專案資料夾執行 `npm install`，再執行 `npm run build`。
+- **`node` 或 `npm` 無法辨識**：重新安裝 Node.js，然後重開 PowerShell 與 Claude Desktop。
+- **解釋函搜尋無法啟動瀏覽器**：在專案資料夾重新執行 `npx playwright install chromium`。
+- **Claude 沒有出現工具**：確認設定檔是合法 JSON、兩個路徑都正確，再完全結束並重開 Claude Desktop。
+- **移動過專案資料夾**：重新修改設定檔中的 `args` 與 `cwd` 路徑。
+
+## 開發與維護指令
+
+一般使用者不需要執行以下指令；這些指令主要供開發或更新資料使用：
+
+```powershell
+npm start       # 直接從 src/index.ts 啟動開發版 MCP server
+npm run build   # 重新編譯 TypeScript 至 dist/
+npm run sync    # 從官方來源同步四編法規並重建 database/
+npm test        # 執行專案測試腳本
+```
+
+`npm run sync` 與首次缺少本地資料時需要連線至全國法規資料庫；解釋函搜尋需要已安裝的 Chromium。
 
 ## 使用範例
 
