@@ -1,0 +1,19 @@
+{
+  "id": "skill:D0070117:第138-1條",
+  "type": "skill",
+  "name": "建築技術規則建築設備編第138-1條",
+  "description": "回答與建築技術規則建築設備編第138-1條相關問題時，檢索並引用對應 domain 原文。",
+  "domainIds": [
+    "D0070117:第138-1條"
+  ],
+  "triggers": [
+    "建築技術規則建築設備編",
+    "第138-1條",
+    "第 八 章 電信設備"
+  ],
+  "responsePolicy": {
+    "quoteExactText": true,
+    "citeSourceUrl": true,
+    "warnNotLegalAdvice": true
+  }
+}

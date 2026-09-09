@@ -1,0 +1,19 @@
+{
+  "id": "skill:D0070117:article-41",
+  "type": "skill",
+  "name": "建築技術規則建築設備編第41條",
+  "description": "回答與建築技術規則建築設備編第41條相關問題時，檢索並引用對應 domain 原文。",
+  "domainIds": [
+    "D0070117:article-41"
+  ],
+  "triggers": [
+    "建築技術規則建築設備編",
+    "第41條",
+    "第 二 節 衛生設備"
+  ],
+  "responsePolicy": {
+    "quoteExactText": true,
+    "citeSourceUrl": true,
+    "warnNotLegalAdvice": true
+  }
+}

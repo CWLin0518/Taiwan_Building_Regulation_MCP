@@ -1,0 +1,19 @@
+{
+  "id": "skill:D0070116:article-491",
+  "type": "skill",
+  "name": "建築技術規則建築構造編第491條",
+  "description": "回答與建築技術規則建築構造編第491條相關問題時，檢索並引用對應 domain 原文。",
+  "domainIds": [
+    "D0070116:article-491"
+  ],
+  "triggers": [
+    "建築技術規則建築構造編",
+    "第491條",
+    "第 七 節 構件與特殊構材"
+  ],
+  "responsePolicy": {
+    "quoteExactText": true,
+    "citeSourceUrl": true,
+    "warnNotLegalAdvice": true
+  }
+}

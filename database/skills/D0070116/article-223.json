@@ -1,0 +1,19 @@
+{
+  "id": "skill:D0070116:article-223",
+  "type": "skill",
+  "name": "建築技術規則建築構造編第223條",
+  "description": "回答與建築技術規則建築構造編第223條相關問題時，檢索並引用對應 domain 原文。",
+  "domainIds": [
+    "D0070116:article-223"
+  ],
+  "triggers": [
+    "建築技術規則建築構造編",
+    "第223條",
+    "第 四 章 木構造"
+  ],
+  "responsePolicy": {
+    "quoteExactText": true,
+    "citeSourceUrl": true,
+    "warnNotLegalAdvice": true
+  }
+}

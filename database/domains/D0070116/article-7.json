@@ -1,0 +1,14 @@
+{
+  "lawCode": "D0070116",
+  "lawName": "建築技術規則建築構造編",
+  "sourceUrl": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0070116",
+  "chapter": "第 一 節 設計要求",
+  "articleNum": "第7條",
+  "articleId": "article-7",
+  "content": "使用電子計算機程式之結構計算，可以設計標準、輸入值、輸出值等能以符合結構計算規定之資料，代替計算書。但所用電子計算機程式必須先經直轄市、縣（市）主管建築機關備案。當地主管建築機關認為有需要時，應由設計人提供其他方法證明電子計算機程式之確實，作為以後同樣設計之應用。",
+  "id": "D0070116:article-7",
+  "type": "domain",
+  "jurisdiction": "TW",
+  "authority": "法務部全國法規資料庫",
+  "retrievedAt": "2026-09-09T10:41:08.955Z"
+}

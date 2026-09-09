@@ -1,0 +1,19 @@
+{
+  "id": "skill:D0070115:article-151",
+  "type": "skill",
+  "name": "建築技術規則建築設計施工編第151條",
+  "description": "回答與建築技術規則建築設計施工編第151條相關問題時，檢索並引用對應 domain 原文。",
+  "domainIds": [
+    "D0070115:article-151"
+  ],
+  "triggers": [
+    "建築技術規則建築設計施工編",
+    "第151條",
+    "第 一 節 通則"
+  ],
+  "responsePolicy": {
+    "quoteExactText": true,
+    "citeSourceUrl": true,
+    "warnNotLegalAdvice": true
+  }
+}

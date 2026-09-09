@@ -1,0 +1,19 @@
+{
+  "id": "skill:D0070116:article-147",
+  "type": "skill",
+  "name": "建築技術規則建築構造編第147條",
+  "description": "回答與建築技術規則建築構造編第147條相關問題時，檢索並引用對應 domain 原文。",
+  "domainIds": [
+    "D0070116:article-147"
+  ],
+  "triggers": [
+    "建築技術規則建築構造編",
+    "第147條",
+    "第 三 節 牆壁設計原則"
+  ],
+  "responsePolicy": {
+    "quoteExactText": true,
+    "citeSourceUrl": true,
+    "warnNotLegalAdvice": true
+  }
+}

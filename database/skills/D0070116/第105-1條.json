@@ -1,0 +1,19 @@
+{
+  "id": "skill:D0070116:第105-1條",
+  "type": "skill",
+  "name": "建築技術規則建築構造編第105-1條",
+  "description": "回答與建築技術規則建築構造編第105-1條相關問題時，檢索並引用對應 domain 原文。",
+  "domainIds": [
+    "D0070116:第105-1條"
+  ],
+  "triggers": [
+    "建築技術規則建築構造編",
+    "第105-1條",
+    "第 四 節 深基礎"
+  ],
+  "responsePolicy": {
+    "quoteExactText": true,
+    "citeSourceUrl": true,
+    "warnNotLegalAdvice": true
+  }
+}

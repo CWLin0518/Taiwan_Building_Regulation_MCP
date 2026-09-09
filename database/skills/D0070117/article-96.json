@@ -1,0 +1,19 @@
+{
+  "id": "skill:D0070117:article-96",
+  "type": "skill",
+  "name": "建築技術規則建築設備編第96條",
+  "description": "回答與建築技術規則建築設備編第96條相關問題時，檢索並引用對應 domain 原文。",
+  "domainIds": [
+    "D0070117:article-96"
+  ],
+  "triggers": [
+    "建築技術規則建築設備編",
+    "第96條",
+    "第 一 節 空氣調節及通風設備之安裝"
+  ],
+  "responsePolicy": {
+    "quoteExactText": true,
+    "citeSourceUrl": true,
+    "warnNotLegalAdvice": true
+  }
+}

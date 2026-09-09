@@ -1,0 +1,14 @@
+{
+  "lawCode": "D0070117",
+  "lawName": "建築技術規則建築設備編",
+  "sourceUrl": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0070117",
+  "chapter": "第 二 節 自動撒水設備",
+  "articleNum": "第54條",
+  "articleId": "article-54",
+  "content": "自動撒水設備得依實際情況需要，採用左列任一裝置形式：一、密閉濕式：平時管內貯滿高壓水，作用時即時撒水。二、密閉乾式：平時管內貯滿高壓空氣，作用時先排空氣，繼即撒水。三、開放式：平時管內無水，用火警感應器啟動控制閥，使水流入管系撒水。",
+  "id": "D0070117:article-54",
+  "type": "domain",
+  "jurisdiction": "TW",
+  "authority": "法務部全國法規資料庫",
+  "retrievedAt": "2026-09-09T10:41:08.955Z"
+}

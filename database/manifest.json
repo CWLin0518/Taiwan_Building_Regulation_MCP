@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "source": "法務部全國法規資料庫",
+  "generatedAt": "2026-09-09T10:41:08.955Z",
+  "lastCheckedAt": "2026-09-09T10:41:29.276Z",
+  "contentHash": "e5aa54f38179466e56262db956d2779f2bb1e5efeb91eeb5c595226ba892d2f7",
+  "lawCodes": [
+    "D0070114",
+    "D0070115",
+    "D0070116",
+    "D0070117"
+  ],
+  "domainCount": 1182,
+  "skillCount": 1182
+}

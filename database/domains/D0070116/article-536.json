@@ -1,0 +1,14 @@
+{
+  "lawCode": "D0070116",
+  "lawName": "建築技術規則建築構造編",
+  "sourceUrl": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0070116",
+  "chapter": "第 三 節 構材之設計",
+  "articleNum": "第536條",
+  "articleId": "article-536",
+  "content": "設計受扭矩及組合力共同作用之構材時，應考量軸力與彎矩共同作用時引致之二次效應，並檢核在各種組合載重作用下之安全性。",
+  "id": "D0070116:article-536",
+  "type": "domain",
+  "jurisdiction": "TW",
+  "authority": "法務部全國法規資料庫",
+  "retrievedAt": "2026-09-09T10:41:08.955Z"
+}

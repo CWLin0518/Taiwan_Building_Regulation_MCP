@@ -1,0 +1,19 @@
+{
+  "id": "skill:D0070115:article-296",
+  "type": "skill",
+  "name": "建築技術規則建築設計施工編第296條",
+  "description": "回答與建築技術規則建築設計施工編第296條相關問題時，檢索並引用對應 domain 原文。",
+  "domainIds": [
+    "D0070115:article-296"
+  ],
+  "triggers": [
+    "建築技術規則建築設計施工編",
+    "第296條",
+    "第 十六 章 老人住宅"
+  ],
+  "responsePolicy": {
+    "quoteExactText": true,
+    "citeSourceUrl": true,
+    "warnNotLegalAdvice": true
+  }
+}

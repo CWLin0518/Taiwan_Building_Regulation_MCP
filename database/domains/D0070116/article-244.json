@@ -1,0 +1,14 @@
+{
+  "lawCode": "D0070116",
+  "lawName": "建築技術規則建築構造編",
+  "sourceUrl": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0070116",
+  "chapter": "第 二 節 設計強度及應力",
+  "articleNum": "第244條",
+  "articleId": "article-244",
+  "content": "鋼結構構材斷面分左列四類：一、塑性設計斷面：指除彎矩強度可達塑性彎矩外，其肢材在受壓下可達應變硬化而不產生局部挫屈者。二、結實斷面：指彎曲強度可達塑性彎矩，其變形能力約為塑性設計斷面之二分之一者。三、半結實斷面：指肢材可承壓至降伏應力而不產生局部挫屈，且無提供有效之韌性者。四、細長肢材斷面：指為肢材在受壓時將產生彈性挫屈者。",
+  "id": "D0070116:article-244",
+  "type": "domain",
+  "jurisdiction": "TW",
+  "authority": "法務部全國法規資料庫",
+  "retrievedAt": "2026-09-09T10:41:08.955Z"
+}

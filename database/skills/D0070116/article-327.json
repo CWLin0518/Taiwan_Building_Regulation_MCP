@@ -1,0 +1,19 @@
+{
+  "id": "skill:D0070116:article-327",
+  "type": "skill",
+  "name": "建築技術規則建築構造編第327條",
+  "description": "回答與建築技術規則建築構造編第327條相關問題時，檢索並引用對應 domain 原文。",
+  "domainIds": [
+    "D0070116:article-327"
+  ],
+  "triggers": [
+    "建築技術規則建築構造編",
+    "第327條",
+    "第 六 節 （刪除）"
+  ],
+  "responsePolicy": {
+    "quoteExactText": true,
+    "citeSourceUrl": true,
+    "warnNotLegalAdvice": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "skill:D0070117:article-32",
+  "type": "skill",
+  "name": "建築技術規則建築設備編第32條",
+  "description": "回答與建築技術規則建築設備編第32條相關問題時，檢索並引用對應 domain 原文。",
+  "domainIds": [
+    "D0070117:article-32"
+  ],
+  "triggers": [
+    "建築技術規則建築設備編",
+    "第32條",
+    "第 一 節 給水排水系統"
+  ],
+  "responsePolicy": {
+    "quoteExactText": true,
+    "citeSourceUrl": true,
+    "warnNotLegalAdvice": true
+  }
+}

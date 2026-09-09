@@ -1,0 +1,14 @@
+{
+  "lawCode": "D0070117",
+  "lawName": "建築技術規則建築設備編",
+  "sourceUrl": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0070117",
+  "chapter": "第 三 節 特殊供電",
+  "articleNum": "第11條",
+  "articleId": "article-11",
+  "content": "凡裝設於舞臺之電氣設備，應依下列規定：一、對地電壓應為三百伏特以下。二、配電盤前面須為無活電露出型，後面如有活電露出，應用牆、鐵板或鐵網隔開。三、舞臺燈之分路，每路最大負荷不得超過二十安培。四、凡簾幕馬達使用電刷型式者，其外殼須為全密閉型者。五、更衣室內之燈具不得使用吊管或鏈吊型，燈具離樓地板面高度低於二點五公尺者，並應加裝燈具護罩。",
+  "id": "D0070117:article-11",
+  "type": "domain",
+  "jurisdiction": "TW",
+  "authority": "法務部全國法規資料庫",
+  "retrievedAt": "2026-09-09T10:41:08.955Z"
+}

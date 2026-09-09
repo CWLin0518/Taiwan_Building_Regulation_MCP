@@ -1,0 +1,19 @@
+{
+  "id": "skill:D0070117:article-67",
+  "type": "skill",
+  "name": "建築技術規則建築設備編第67條",
+  "description": "回答與建築技術規則建築設備編第67條相關問題時，檢索並引用對應 domain 原文。",
+  "domainIds": [
+    "D0070117:article-67"
+  ],
+  "triggers": [
+    "建築技術規則建築設備編",
+    "第67條",
+    "第 三 節 火警自動警報器設備"
+  ],
+  "responsePolicy": {
+    "quoteExactText": true,
+    "citeSourceUrl": true,
+    "warnNotLegalAdvice": true
+  }
+}

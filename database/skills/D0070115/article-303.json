@@ -1,0 +1,19 @@
+{
+  "id": "skill:D0070115:article-303",
+  "type": "skill",
+  "name": "建築技術規則建築設計施工編第303條",
+  "description": "回答與建築技術規則建築設計施工編第303條相關問題時，檢索並引用對應 domain 原文。",
+  "domainIds": [
+    "D0070115:article-303"
+  ],
+  "triggers": [
+    "建築技術規則建築設計施工編",
+    "第303條",
+    "第 二 節 建築基地綠化"
+  ],
+  "responsePolicy": {
+    "quoteExactText": true,
+    "citeSourceUrl": true,
+    "warnNotLegalAdvice": true
+  }
+}

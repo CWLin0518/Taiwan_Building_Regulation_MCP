@@ -1,0 +1,14 @@
+{
+  "lawCode": "D0070116",
+  "lawName": "建築技術規則建築構造編",
+  "sourceUrl": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0070116",
+  "chapter": "第 一 節 設計要求",
+  "articleNum": "第4條",
+  "articleId": "article-4",
+  "content": "本編規定之材料容許應力及基土支承力，如將風力或地震力與垂直載重合併計算時，得依中央主管建築機關所定相關設計規範規定予以增加。但所得設計結果不得小於僅計算垂直載重之所得值。",
+  "id": "D0070116:article-4",
+  "type": "domain",
+  "jurisdiction": "TW",
+  "authority": "法務部全國法規資料庫",
+  "retrievedAt": "2026-09-09T10:41:08.955Z"
+}

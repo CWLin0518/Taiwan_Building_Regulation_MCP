@@ -1,0 +1,19 @@
+{
+  "id": "skill:D0070115:article-156",
+  "type": "skill",
+  "name": "建築技術規則建築設計施工編第156條",
+  "description": "回答與建築技術規則建築設計施工編第156條相關問題時，檢索並引用對應 domain 原文。",
+  "domainIds": [
+    "D0070115:article-156"
+  ],
+  "triggers": [
+    "建築技術規則建築設計施工編",
+    "第156條",
+    "第 四 節 施工架、工作台、走道"
+  ],
+  "responsePolicy": {
+    "quoteExactText": true,
+    "citeSourceUrl": true,
+    "warnNotLegalAdvice": true
+  }
+}

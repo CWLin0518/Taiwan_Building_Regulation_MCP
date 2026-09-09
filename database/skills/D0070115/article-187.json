@@ -1,0 +1,19 @@
+{
+  "id": "skill:D0070115:article-187",
+  "type": "skill",
+  "name": "建築技術規則建築設計施工編第187條",
+  "description": "回答與建築技術規則建築設計施工編第187條相關問題時，檢索並引用對應 domain 原文。",
+  "domainIds": [
+    "D0070115:article-187"
+  ],
+  "triggers": [
+    "建築技術規則建築設計施工編",
+    "第187條",
+    "第 一 節 一般設計通則"
+  ],
+  "responsePolicy": {
+    "quoteExactText": true,
+    "citeSourceUrl": true,
+    "warnNotLegalAdvice": true
+  }
+}

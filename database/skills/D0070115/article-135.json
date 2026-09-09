@@ -1,0 +1,19 @@
+{
+  "id": "skill:D0070115:article-135",
+  "type": "skill",
+  "name": "建築技術規則建築設計施工編第135條",
+  "description": "回答與建築技術規則建築設計施工編第135條相關問題時，檢索並引用對應 domain 原文。",
+  "domainIds": [
+    "D0070115:article-135"
+  ],
+  "triggers": [
+    "建築技術規則建築設計施工編",
+    "第135條",
+    "第 五 節 車庫、車輛修理場所、洗車站房、汽車商場 (包括出租汽車及計程車營業站)"
+  ],
+  "responsePolicy": {
+    "quoteExactText": true,
+    "citeSourceUrl": true,
+    "warnNotLegalAdvice": true
+  }
+}

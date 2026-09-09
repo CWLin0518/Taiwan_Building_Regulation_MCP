@@ -1,0 +1,14 @@
+{
+  "lawCode": "D0070117",
+  "lawName": "建築技術規則建築設備編",
+  "sourceUrl": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0070117",
+  "chapter": "第 三 節 火警自動警報器設備",
+  "articleNum": "第73條",
+  "articleId": "article-73",
+  "content": "火警警鈴應依左列規定：一、電源應為直流式。二、電壓到達規定電壓之百分之八十時，應能即刻發出音響。三、在規定電壓下，離開火警警鈴一百公分處，所測得之音量，不得小於八十五貧（phon）。四、電鈴絕緣電阻在二○兆歐姆以上。五、警鈴音響應有別於建築物其他音響，並除報警外，不得兼作他用。",
+  "id": "D0070117:article-73",
+  "type": "domain",
+  "jurisdiction": "TW",
+  "authority": "法務部全國法規資料庫",
+  "retrievedAt": "2026-09-09T10:41:08.955Z"
+}

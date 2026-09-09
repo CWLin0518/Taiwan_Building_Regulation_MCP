@@ -1,0 +1,14 @@
+{
+  "lawCode": "D0070115",
+  "lawName": "建築技術規則建築設計施工編",
+  "sourceUrl": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0070115",
+  "chapter": "第 四 節 建築設備",
+  "articleNum": "第251條",
+  "articleId": "article-251",
+  "content": "高層建築物應另設置室內供消防隊專用之連結送水管，其管徑應為一百公厘以上，出水口應為雙口形。高層建築物高度每超過六十公尺者，應設置中繼幫浦，連結送水管三支以下時，其幫浦出水口之水量不得小於二千四百公升／分，每增加一支出水量加八百公升／分，至五支為止，出水口之出水壓力不得小於三‧五公斤／平方公分。",
+  "id": "D0070115:article-251",
+  "type": "domain",
+  "jurisdiction": "TW",
+  "authority": "法務部全國法規資料庫",
+  "retrievedAt": "2026-09-09T10:41:08.955Z"
+}

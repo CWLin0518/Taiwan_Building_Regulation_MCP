@@ -1,0 +1,14 @@
+{
+  "lawCode": "D0070117",
+  "lawName": "建築技術規則建築設備編",
+  "sourceUrl": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0070117",
+  "chapter": "第 三 節 特殊供電",
+  "articleNum": "第15條",
+  "articleId": "article-15",
+  "content": "X 光機或放射線之電氣裝置，應依下列規定：一、每一組機器應裝設保護開關於該室之門上，並應將開關連接至機器控制器上，當室門未緊閉時，機器即自動斷電。二、室外門上應裝設紅色及綠色標示燈，當機器開始操作時，紅燈須點亮，機器完全停止時，綠燈點亮。",
+  "id": "D0070117:article-15",
+  "type": "domain",
+  "jurisdiction": "TW",
+  "authority": "法務部全國法規資料庫",
+  "retrievedAt": "2026-09-09T10:41:08.955Z"
+}

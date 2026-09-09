@@ -1,0 +1,14 @@
+{
+  "lawCode": "D0070115",
+  "lawName": "建築技術規則建築設計施工編",
+  "sourceUrl": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0070115",
+  "chapter": "第 十五 章 實施都市計畫區建築基地綜合設計",
+  "articleNum": "第285條",
+  "articleId": "article-285",
+  "content": "留設開放空間之建築物，經直轄市、縣（市）主管建築機關審查符合本編章規定者，得增加樓地板面積合計之最大值Σ△FA，應符合都市計畫法規或都市計畫書圖之規定；其未規定者，應提送當地直轄市、縣（市）都市計畫委員會審議通過後實施，並依下式計算：Σ△FA＝△FA1＋△FA2△FA1 ：依本編第二百八十六條第一款規定計算增加之樓地板面積。△FA2 ：依本章留設公共服務空間而增加之樓地板面積。",
+  "id": "D0070115:article-285",
+  "type": "domain",
+  "jurisdiction": "TW",
+  "authority": "法務部全國法規資料庫",
+  "retrievedAt": "2026-09-09T10:41:08.955Z"
+}

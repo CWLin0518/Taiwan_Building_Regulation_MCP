@@ -1,0 +1,19 @@
+{
+  "id": "skill:D0070115:article-225",
+  "type": "skill",
+  "name": "建築技術規則建築設計施工編第225條",
+  "description": "回答與建築技術規則建築設計施工編第225條相關問題時，檢索並引用對應 domain 原文。",
+  "domainIds": [
+    "D0070115:article-225"
+  ],
+  "triggers": [
+    "建築技術規則建築設計施工編",
+    "第225條",
+    "第 六 節 環境衛生及其它"
+  ],
+  "responsePolicy": {
+    "quoteExactText": true,
+    "citeSourceUrl": true,
+    "warnNotLegalAdvice": true
+  }
+}

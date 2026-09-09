@@ -1,0 +1,19 @@
+{
+  "id": "skill:D0070115:article-288",
+  "type": "skill",
+  "name": "建築技術規則建築設計施工編第288條",
+  "description": "回答與建築技術規則建築設計施工編第288條相關問題時，檢索並引用對應 domain 原文。",
+  "domainIds": [
+    "D0070115:article-288"
+  ],
+  "triggers": [
+    "建築技術規則建築設計施工編",
+    "第288條",
+    "第 十五 章 實施都市計畫區建築基地綜合設計"
+  ],
+  "responsePolicy": {
+    "quoteExactText": true,
+    "citeSourceUrl": true,
+    "warnNotLegalAdvice": true
+  }
+}

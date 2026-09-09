@@ -1,0 +1,14 @@
+{
+  "lawCode": "D0070115",
+  "lawName": "建築技術規則建築設計施工編",
+  "sourceUrl": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0070115",
+  "chapter": "第 四 節 防火避難設施及消防設備",
+  "articleNum": "第210條",
+  "articleId": "article-210",
+  "content": "地下建築物應設置左列漏電警報設備：一、漏電檢出機：其感度電流最高值應在一安培以下。二、受信總機：應具有配合開關設備，自動切斷電路之機能。前項漏電警報設備應與火警自動警報設備併設但須區分之。",
+  "id": "D0070115:article-210",
+  "type": "domain",
+  "jurisdiction": "TW",
+  "authority": "法務部全國法規資料庫",
+  "retrievedAt": "2026-09-09T10:41:08.955Z"
+}

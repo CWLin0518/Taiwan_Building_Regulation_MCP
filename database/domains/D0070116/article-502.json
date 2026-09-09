@@ -1,0 +1,14 @@
+{
+  "lawCode": "D0070116",
+  "lawName": "建築技術規則建築構造編",
+  "sourceUrl": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0070116",
+  "chapter": "第 一 節 設計原則",
+  "articleNum": "第502條",
+  "articleId": "article-502",
+  "content": "鋼骨鋼筋混凝土構造設計，應考慮左列極限狀態要求：一、強度極限狀態：包含降伏、挫屈、傾倒、疲勞或斷裂等極限狀態。二、使用性極限狀態：包含撓度、側向位移、振動或其他影響正常使用功能之極限狀態。",
+  "id": "D0070116:article-502",
+  "type": "domain",
+  "jurisdiction": "TW",
+  "authority": "法務部全國法規資料庫",
+  "retrievedAt": "2026-09-09T10:41:08.955Z"
+}

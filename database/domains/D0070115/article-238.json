@@ -1,0 +1,14 @@
+{
+  "lawCode": "D0070115",
+  "lawName": "建築技術規則建築設計施工編",
+  "sourceUrl": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0070115",
+  "chapter": "第 二 節 建築構造",
+  "articleNum": "第238條",
+  "articleId": "article-238",
+  "content": "高層建築物為確保地震時之安全性，應檢討建築物之極限層剪力強度，極限層剪力強度應為彈性設計內所述設計用地震力作用時之層剪力之一．五倍以上。但剪力牆之剪力強度應為各該剪力牆設計地震力之二‧五倍以上，斜撐構架之剪力強度應為各該斜撐構架設計地震力之二倍以上。",
+  "id": "D0070115:article-238",
+  "type": "domain",
+  "jurisdiction": "TW",
+  "authority": "法務部全國法規資料庫",
+  "retrievedAt": "2026-09-09T10:41:08.955Z"
+}

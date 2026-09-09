@@ -1,0 +1,14 @@
+{
+  "lawCode": "D0070117",
+  "lawName": "建築技術規則建築設備編",
+  "sourceUrl": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0070117",
+  "chapter": "第 二 節 自動撒水設備",
+  "articleNum": "第62條",
+  "articleId": "article-62",
+  "content": "裝置自動撒水設備之建築物，應自備一種以上可靠之水源。水源容量，應依左列規定：一、十層以下建築物：不得小於十個撒水頭繼續放水二十分鐘之水量。二、十一層以上之建築物及百貨商場、戲院之樓層：不得小於三十個撒水頭繼續放水二十分鐘之水量。前項水源，應為能自動供水之重力水箱，地下水池及消防水泵、或壓力水箱及加壓水泵。水泵均應連接緊急電源。",
+  "id": "D0070117:article-62",
+  "type": "domain",
+  "jurisdiction": "TW",
+  "authority": "法務部全國法規資料庫",
+  "retrievedAt": "2026-09-09T10:41:08.955Z"
+}

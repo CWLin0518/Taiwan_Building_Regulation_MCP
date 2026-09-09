@@ -1,0 +1,18 @@
+{
+  "id": "skill:D0070114:article-7",
+  "type": "skill",
+  "name": "建築技術規則總則編第7條",
+  "description": "回答與建築技術規則總則編第7條相關問題時，檢索並引用對應 domain 原文。",
+  "domainIds": [
+    "D0070114:article-7"
+  ],
+  "triggers": [
+    "建築技術規則總則編",
+    "第7條"
+  ],
+  "responsePolicy": {
+    "quoteExactText": true,
+    "citeSourceUrl": true,
+    "warnNotLegalAdvice": true
+  }
+}

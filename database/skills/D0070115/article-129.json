@@ -1,0 +1,19 @@
+{
+  "id": "skill:D0070115:article-129",
+  "type": "skill",
+  "name": "建築技術規則建築設計施工編第129條",
+  "description": "回答與建築技術規則建築設計施工編第129條相關問題時，檢索並引用對應 domain 原文。",
+  "domainIds": [
+    "D0070115:article-129"
+  ],
+  "triggers": [
+    "建築技術規則建築設計施工編",
+    "第129條",
+    "第 三 節 商場、餐廳、市場"
+  ],
+  "responsePolicy": {
+    "quoteExactText": true,
+    "citeSourceUrl": true,
+    "warnNotLegalAdvice": true
+  }
+}

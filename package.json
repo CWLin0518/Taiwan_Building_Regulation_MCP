@@ -1,0 +1,29 @@
+{
+  "name": "taiwam_building_code_tracker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "這是用來放開發樣板用的repo",
+  "type": "commonjs",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "build": "tsc",
+    "sync": "tsx src/sync_database.ts",
+    "test": "tsx src/test.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1",
+    "axios": "^1.13.6",
+    "cheerio": "^1.2.0",
+    "playwright": "^1.58.2",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.35",
+    "@types/node": "^25.5.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "skill:D0070116:article-124",
+  "type": "skill",
+  "name": "建築技術規則建築構造編第124條",
+  "description": "回答與建築技術規則建築構造編第124條相關問題時，檢索並引用對應 domain 原文。",
+  "domainIds": [
+    "D0070116:article-124"
+  ],
+  "triggers": [
+    "建築技術規則建築構造編",
+    "第124條",
+    "第 六 節 基礎開挖"
+  ],
+  "responsePolicy": {
+    "quoteExactText": true,
+    "citeSourceUrl": true,
+    "warnNotLegalAdvice": true
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "lawCode": "D0070117",
+  "lawName": "建築技術規則建築設備編",
+  "sourceUrl": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0070117",
+  "chapter": "第 三 節 特殊供電",
+  "articleNum": "第16條",
+  "articleId": "article-16",
+  "content": "游泳池之電氣設備，應依下列規定：一、為供應游泳池內電氣器具之電源，應使用絕緣變壓器，其一次側電壓，應為三百伏特以下，二次側電壓，應為一百五十伏特以下，且絕緣變壓器之二次側不得接地，並附接地隔屏於一次線圈與二次線圈間，絕緣變壓器二次側配線應按金屬管工程施工。二、供應游泳池部分之電源應裝設漏電斷路器。三、所有器具均應按第三種地線工程妥為接地。",
+  "id": "D0070117:article-16",
+  "type": "domain",
+  "jurisdiction": "TW",
+  "authority": "法務部全國法規資料庫",
+  "retrievedAt": "2026-09-09T10:41:08.955Z"
+}

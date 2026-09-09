@@ -1,0 +1,14 @@
+{
+  "lawCode": "D0070116",
+  "lawName": "建築技術規則建築構造編",
+  "sourceUrl": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0070116",
+  "chapter": "第 四 節 耐風設計",
+  "articleNum": "第38條",
+  "articleId": "article-38",
+  "content": "基本設計風速得依風速統計資料，考慮不同風向產生之效應。其分析結果，應檢附申請書及統計分析報告書，向中央主管建築機關申請認可後，始得運用於建築物耐風設計。前項統計分析報告書，應包括風速統計紀錄、風向統計分析方法及不同風向五十年回歸期之基本設計風速分析結果等事項。中央主管建築機關為辦理第一項基本設計風速之方向性分析結果認可，得邀集相關專家學者組成認可小組審查。",
+  "id": "D0070116:article-38",
+  "type": "domain",
+  "jurisdiction": "TW",
+  "authority": "法務部全國法規資料庫",
+  "retrievedAt": "2026-09-09T10:41:08.955Z"
+}

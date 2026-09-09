@@ -1,0 +1,19 @@
+{
+  "id": "skill:D0070116:article-360",
+  "type": "skill",
+  "name": "建築技術規則建築構造編第360條",
+  "description": "回答與建築技術規則建築構造編第360條相關問題時，檢索並引用對應 domain 原文。",
+  "domainIds": [
+    "D0070116:article-360"
+  ],
+  "triggers": [
+    "建築技術規則建築構造編",
+    "第360條",
+    "第 二 節 品質要求"
+  ],
+  "responsePolicy": {
+    "quoteExactText": true,
+    "citeSourceUrl": true,
+    "warnNotLegalAdvice": true
+  }
+}

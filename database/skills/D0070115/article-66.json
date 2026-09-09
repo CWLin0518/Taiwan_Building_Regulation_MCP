@@ -1,0 +1,19 @@
+{
+  "id": "skill:D0070115:article-66",
+  "type": "skill",
+  "name": "建築技術規則建築設計施工編第66條",
+  "description": "回答與建築技術規則建築設計施工編第66條相關問題時，檢索並引用對應 domain 原文。",
+  "domainIds": [
+    "D0070115:article-66"
+  ],
+  "triggers": [
+    "建築技術規則建築設計施工編",
+    "第66條",
+    "第 二 節 雜項工作物之防火限制"
+  ],
+  "responsePolicy": {
+    "quoteExactText": true,
+    "citeSourceUrl": true,
+    "warnNotLegalAdvice": true
+  }
+}

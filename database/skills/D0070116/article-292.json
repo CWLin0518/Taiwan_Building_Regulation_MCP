@@ -1,0 +1,19 @@
+{
+  "id": "skill:D0070116:article-292",
+  "type": "skill",
+  "name": "建築技術規則建築構造編第292條",
+  "description": "回答與建築技術規則建築構造編第292條相關問題時，檢索並引用對應 domain 原文。",
+  "domainIds": [
+    "D0070116:article-292"
+  ],
+  "triggers": [
+    "建築技術規則建築構造編",
+    "第292條",
+    "第 五 節 接合設計"
+  ],
+  "responsePolicy": {
+    "quoteExactText": true,
+    "citeSourceUrl": true,
+    "warnNotLegalAdvice": true
+  }
+}

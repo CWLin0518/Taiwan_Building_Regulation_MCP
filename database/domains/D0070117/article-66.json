@@ -1,0 +1,14 @@
+{
+  "lawCode": "D0070117",
+  "lawName": "建築技術規則建築設備編",
+  "sourceUrl": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0070117",
+  "chapter": "第 三 節 火警自動警報器設備",
+  "articleNum": "第66條",
+  "articleId": "article-66",
+  "content": "火警自動警報設備應包括左列設備：一、自動火警探測設備。二、手動報警機。三、報警標示燈。四、火警警鈴。五、火警受信機總機。六、緊急電源。裝置於散發易燃性塵埃處所之火警自動警報設備，應具有防爆性能。裝置於散發易燃性飛絮或非導電性及非可燃性塵埃處所者，應具有防塵性能。",
+  "id": "D0070117:article-66",
+  "type": "domain",
+  "jurisdiction": "TW",
+  "authority": "法務部全國法規資料庫",
+  "retrievedAt": "2026-09-09T10:41:08.955Z"
+}

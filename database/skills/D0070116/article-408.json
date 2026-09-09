@@ -1,0 +1,19 @@
+{
+  "id": "skill:D0070116:article-408",
+  "type": "skill",
+  "name": "建築技術規則建築構造編第408條",
+  "description": "回答與建築技術規則建築構造編第408條相關問題時，檢索並引用對應 domain 原文。",
+  "domainIds": [
+    "D0070116:article-408"
+  ],
+  "triggers": [
+    "建築技術規則建築構造編",
+    "第408條",
+    "第 四 節 耐震設計之特別規定"
+  ],
+  "responsePolicy": {
+    "quoteExactText": true,
+    "citeSourceUrl": true,
+    "warnNotLegalAdvice": true
+  }
+}

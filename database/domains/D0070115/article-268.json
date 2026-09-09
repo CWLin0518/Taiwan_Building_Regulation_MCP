@@ -1,0 +1,14 @@
+{
+  "lawCode": "D0070115",
+  "lawName": "建築技術規則建築設計施工編",
+  "sourceUrl": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0070115",
+  "chapter": "第 二 節 設計原則",
+  "articleNum": "第268條",
+  "articleId": "article-268",
+  "content": "建築物高度除依都市計畫法或區域計畫法有關規定許可者，從其規定外，不得高於法定最大容積率除以法定最大建蔽率之商乘三點六再乘以二，其公式如左： 法定最大容積率 H ≦────────×3.6×2 法定最大建蔽率建築物高度因構造或用途等特殊需要，經目的事業主管機關審定有增加其建築物高度必要者，得不受前項限制。",
+  "id": "D0070115:article-268",
+  "type": "domain",
+  "jurisdiction": "TW",
+  "authority": "法務部全國法規資料庫",
+  "retrievedAt": "2026-09-09T10:41:08.955Z"
+}
