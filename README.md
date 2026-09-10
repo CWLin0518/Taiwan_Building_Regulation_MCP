@@ -55,29 +55,31 @@ MCP 可以理解成「讓 AI 使用外部工具的通用連接方式」。安裝
 請先安裝：
 
 1. [Node.js](https://nodejs.org/) 20 或更新版本。建議下載官網標示為 **LTS** 的版本，安裝時使用預設選項即可。
-2. 任一支援本機 stdio MCP 的 AI 客戶端。
-3. 將本專案下載或解壓縮到固定位置。設定完成後不要任意移動資料夾，否則 AI 客戶端會找不到它。
+2. [Git for Windows](https://git-scm.com/download/win)，安裝時使用預設選項即可。
+3. 任一支援本機 stdio MCP 的 AI 客戶端。
 
-Node.js 安裝完成後，開啟新的 PowerShell 視窗：
+Node.js 與 Git 安裝完成後，開啟新的 PowerShell 視窗：
 
-- 在專案資料夾的空白處按住 `Shift` 並按滑鼠右鍵，選擇「在終端機中開啟」；或
-- 在 Windows 開始功能表搜尋並開啟「PowerShell」，再用 `cd` 進入專案資料夾。
+- 在準備存放專案的資料夾空白處按住 `Shift` 並按滑鼠右鍵，選擇「在終端機中開啟」；或
+- 在 Windows 開始功能表搜尋並開啟「PowerShell」。
 
-輸入以下指令確認安裝成功：
+輸入以下指令確認 Node.js、npm 與 Git 安裝成功：
 
 ```powershell
 node --version
 npm --version
+git --version
 ```
 
-第一行應顯示 `v20` 或更高版本，第二行應顯示 npm 版本號。如果出現「無法辨識」之類的訊息，請重新安裝 Node.js，並關閉後重新開啟 PowerShell。
+第一行應顯示 `v20` 或更高版本，其餘兩行應顯示 npm 與 Git 版本號。如果出現「無法辨識」之類的訊息，請重新安裝對應軟體，並關閉後重新開啟 PowerShell。
 
-### 步驟 2：進入專案資料夾
+### 步驟 2：使用 Git Clone 取得專案
 
-如果 PowerShell 尚未位於本專案資料夾，請輸入 `cd` 加上專案的完整路徑。路徑外加雙引號可以避免中文或空格造成錯誤：
+在準備存放專案的位置執行：
 
 ```powershell
-cd "C:\您的路徑\Taiwan_Building_Regulation_MCP"
+git clone https://github.com/CWLin0518/Taiwan_Building_Regulation_MCP.git
+cd "Taiwan_Building_Regulation_MCP"
 ```
 
 輸入以下指令可以確認目前位置：
@@ -86,7 +88,7 @@ cd "C:\您的路徑\Taiwan_Building_Regulation_MCP"
 Get-Location
 ```
 
-接下來的安裝指令都必須在這個資料夾內執行。資料夾中應該看得到 `package.json` 與 `README.md`。
+接下來的安裝指令都必須在這個資料夾內執行。資料夾中應該看得到 `package.json` 與 `README.md`。設定完成後不要任意移動或重新命名此資料夾，否則 AI 客戶端會找不到它。
 
 ### 步驟 3：安裝套件並編譯
 
@@ -196,9 +198,9 @@ C:\Users\YourName\Documents\Taiwan_Building_Regulation_MCP
 
 ## 在其他電腦更新專案
 
-當本專案加入新功能、修正問題或更新法規資料後，已經安裝過的其他電腦不必重新設定整個 MCP。建議先將工作中的檔案提交或備份，再依當初取得專案的方式更新。
+當本專案加入新功能、修正問題或更新法規資料後，已經安裝過的其他電腦不必重新設定整個 MCP。請使用 Git 取得新版；更新前建議先提交或備份工作中的檔案。
 
-### 方法一：使用 Git 更新（建議）
+### 更新步驟
 
 1. 完全關閉正在使用本 MCP 的 AI 客戶端，避免舊版程式仍在背景執行。
 2. 在專案資料夾開啟 PowerShell。
@@ -219,23 +221,6 @@ npm run build
 - `npm run build`：重新產生最新版 `dist/index.js`。
 
 如果 `git pull` 提示本機有尚未提交的修改，請先保留或提交那些修改，不要直接覆蓋；不確定如何處理時，可先完整複製專案資料夾作為備份。
-
-### 方法二：使用 ZIP 或手動複製更新
-
-1. 完全關閉正在使用本 MCP 的 AI 客戶端。
-2. 備份舊專案資料夾，特別是自己修改過的檔案。
-3. 下載或複製最新版專案，解壓縮到固定位置。
-4. 在新版專案資料夾開啟 PowerShell 並執行：
-
-```powershell
-npm install
-npx playwright install chromium
-npm run build
-```
-
-建議使用乾淨的新版資料夾，不要只將新檔案覆蓋到舊資料夾，否則新版已刪除的舊檔案可能殘留。
-
-如果新版仍放在原本的完整路徑，AI 客戶端的 MCP 設定不需修改。如果資料夾名稱或位置改變，請同步更新 MCP 設定中 `args` 指向的 `dist/index.js` 完整路徑。
 
 ### 更新後測試
 
