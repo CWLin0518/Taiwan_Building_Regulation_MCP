@@ -2,8 +2,9 @@ import fs from 'fs/promises';
 import path from 'path';
 import { createHash } from 'crypto';
 import { DomainRecord, LawData, SkillRecord } from './types.js';
+import { PROJECT_ROOT } from './project_root.js';
 
-export const DATABASE_ROOT = path.join(process.cwd(), 'database');
+export const DATABASE_ROOT = path.join(PROJECT_ROOT, 'database');
 
 export interface DatabaseManifest {
   schemaVersion: number;

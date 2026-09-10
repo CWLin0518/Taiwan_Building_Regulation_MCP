@@ -3,6 +3,7 @@ import * as cheerio from 'cheerio';
 import fs from 'fs/promises';
 import path from 'path';
 import { LawData, Article } from './types.js';
+import { PROJECT_ROOT } from './project_root.js';
 
 export const BUILDING_REGULATIONS = [
   { lawCode: 'D0070114', expectedName: '建築技術規則總則編' },
@@ -10,7 +11,7 @@ export const BUILDING_REGULATIONS = [
   { lawCode: 'D0070116', expectedName: '建築技術規則建築構造編' },
   { lawCode: 'D0070117', expectedName: '建築技術規則建築設備編' },
 ] as const;
-const CACHE_FILE = path.join(process.cwd(), 'data', 'law_cache.json');
+const CACHE_FILE = path.join(PROJECT_ROOT, 'data', 'law_cache.json');
 
 export async function fetchLawData(forceRefresh = false): Promise<LawData> {
   if (!forceRefresh) {
