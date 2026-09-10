@@ -194,6 +194,67 @@ C:\Users\YourName\Documents\Taiwan_Building_Regulation_MCP
 - **AI 沒有出現工具**：確認客戶端支援本機 stdio MCP、設定檔是合法 JSON、`args` 路徑正確，再完全結束並重開客戶端。
 - **移動過專案資料夾**：重新修改 MCP 設定中的 `args` 路徑。
 
+## 在其他電腦更新專案
+
+當本專案加入新功能、修正問題或更新法規資料後，已經安裝過的其他電腦不必重新設定整個 MCP。建議先將工作中的檔案提交或備份，再依當初取得專案的方式更新。
+
+### 方法一：使用 Git 更新（建議）
+
+1. 完全關閉正在使用本 MCP 的 AI 客戶端，避免舊版程式仍在背景執行。
+2. 在專案資料夾開啟 PowerShell。
+3. 執行：
+
+```powershell
+git pull
+npm install
+npx playwright install chromium
+npm run build
+```
+
+各指令用途如下：
+
+- `git pull`：取得遠端儲存庫的最新程式與資料。
+- `npm install`：依最新版 `package.json`／`package-lock.json` 補裝或更新套件。
+- `npx playwright install chromium`：確保解釋函搜尋使用的瀏覽器版本相容。
+- `npm run build`：重新產生最新版 `dist/index.js`。
+
+如果 `git pull` 提示本機有尚未提交的修改，請先保留或提交那些修改，不要直接覆蓋；不確定如何處理時，可先完整複製專案資料夾作為備份。
+
+### 方法二：使用 ZIP 或手動複製更新
+
+1. 完全關閉正在使用本 MCP 的 AI 客戶端。
+2. 備份舊專案資料夾，特別是自己修改過的檔案。
+3. 下載或複製最新版專案，解壓縮到固定位置。
+4. 在新版專案資料夾開啟 PowerShell 並執行：
+
+```powershell
+npm install
+npx playwright install chromium
+npm run build
+```
+
+建議使用乾淨的新版資料夾，不要只將新檔案覆蓋到舊資料夾，否則新版已刪除的舊檔案可能殘留。
+
+如果新版仍放在原本的完整路徑，AI 客戶端的 MCP 設定不需修改。如果資料夾名稱或位置改變，請同步更新 MCP 設定中 `args` 指向的 `dist/index.js` 完整路徑。
+
+### 更新後測試
+
+重新啟動 AI 客戶端並建立新對話，輸入：
+
+> 請搜尋建築技術規則中關於「活載重」的規定。
+
+確認 AI 能呼叫 `search_building_code` 並回傳結果。若新版本增加了工具，也可要求 AI 列出目前可用的 MCP 工具，確認新工具已出現。
+
+日後每次更新的最短流程通常是：
+
+```powershell
+git pull
+npm install
+npm run build
+```
+
+只有 Playwright 版本有變動，或解釋函搜尋無法啟動瀏覽器時，才需要額外重新執行 `npx playwright install chromium`。
+
 ## 開發與維護指令
 
 一般使用者不需要執行以下指令；這些指令主要供開發或更新資料使用：
